@@ -86,14 +86,14 @@ def construct_url(query):
 	return respData
 
 try:
-	file_location = open('C:\\Users\\python\\Desktop\\url\\episode.txt', 'r+')
+	file_location = open('episode.txt', 'r+')
 	episode_read = file_location.read()
 	episode_find = (int(episode_read[4::])) + 1
 	file_location.seek(0)
 	file_location.truncate()
 	episode_read = 's03e'
 	
-	if episode_find < 10:
+	if (episode_find < 10):
 		episode_read = 's03e0'	
 	
 	episode_read += str(episode_find)
