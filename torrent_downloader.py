@@ -2,8 +2,8 @@
 Author - rock321987
 Created On - 2 / 1 / 2015
 Download videos from torrent at given schedule..
-Works on Windows with 'Schedule Task(found in control panel)'
-Python V - 3.4 with BeautifulSoup
+Works on Windows with 'Schedule Task'(found in control panel)
+Python Version - 3.4 with BeautifulSoup
 '''
 
 from bs4 import BeautifulSoup
